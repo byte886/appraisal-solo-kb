@@ -1,0 +1,51 @@
+# --- 系统/编辑器 ---
+.DS_Store
+Thumbs.db
+*.swp
+~$*
+
+# --- 飞书 lark-doc 本地中间稿（可重新拉取，不入库） ---
+draft_*_folder/
+
+# --- 临时切段/导出缓存 ---
+_seg/
+**/_seg/
+*.tmp
+*.crdownload
+*.bak
+*.old
+
+# --- 凭证与明文密钥（绝不入库；统一走全局 secrets） ---
+.secrets/*.json
+.secrets/*.txt
+.secrets/*.raw
+.secrets/*.key
+.secrets/*.pem
+*.pem
+*.key
+.env
+.env.*
+!*.enc
+
+# --- 运行环境与依赖 ---
+venv/
+.venv/
+env/
+node_modules/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- 日志与本地回收 ---
+*.log
+logs/
+.trash/
+
+# --- 运行数据/结果（本项目一般不产生，预留） ---
+data/
+results/
+
+# --- 私有客户/联系人台账（含个人信息，未脱敏前不入公有仓） ---
+03_进行中的任务/合作线索台账/*私有*
+03_进行中的任务/合作线索台账/*private*
+03_进行中的任务/合作线索台账/*联系人*

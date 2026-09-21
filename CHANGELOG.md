@@ -3,6 +3,7 @@
 > 倒序，只增不改；记录项目层面显著变更。
 
 ## 2026-09-22
+- **建成"创业者外脑"（借鉴 astock-quant 外脑机制）**：新增轻量 `docs/` 治理层——创业者外脑宪章、创业者画像（公开版 + 本地 `_私有` 完整版）、HANDOFF 活日志（倒序决策日志 + 当前纠结 + 想法停车场）、新窗口接手 SOP（冷启动六问）、外脑喂养 SOP（五类输入归宿、跨窗口采集、周节奏）、docs 文档地图；新增 `09/跨窗口思考/` 收件箱（inbox 不入库）；AGENTS §7 冷启动六问 + §8 喂养收口；ADR-002 记录决策；.gitignore 增补外脑私有件/inbox/客户台账私有件。
 - 建立本地 Git 仓库 `appraisal-solo-kb`（桌面，六槽位结构）并创建 GitHub 公有远程仓 byte886/appraisal-solo-kb。
 - 将 2026-09-09 会话产物归位：主报告(md/html)、79 页合订本(html/pdf)、决策结构图 → `01_结论与产出/`；5 份源报告 → `09_调研底稿与素材/`；分公司合作候选清单 xlsx → `03_进行中的任务/合作线索台账/`。
 - 补齐标配文件：00_项目总纲、README、AGENTS、PROFILE、LICENSE(PROPRIETARY)、.gitignore、ADR-001、TASK_STATUS、ISSUES。
